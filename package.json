@@ -1,19 +1,17 @@
 {
   "name": "makeswift-agri-web",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/macstonks/makeswift-agri-web.git"
-  },
-  "author": "ajai, akash",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/macstonks/makeswift-agri-web/issues"
-  },
-  "homepage": "https://github.com/macstonks/makeswift-agri-web#readme"
+  "dependencies": {
+    "firebase": "^8.2.1",
+    "firebase-admin": "^9.4.2",
+    "next": "10.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
 }
